@@ -1,0 +1,6 @@
+{
+  "name": "Buscador de Gasolineras Baratas",
+  "description": "Busca la gasolinera más barata de tu municipio en tiempo real, compara precios por tipo de combustible y guarda favoritos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
