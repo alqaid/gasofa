@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/406d561e-fd6e-4dbb-955b-a8e0f2feeb27
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+la primera vez instalar dependencias
+npm install
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+para compilar y probar:
+npm run dev
+
+
+
+--------------- para exportar a javascript:
+npm run build
+En dist   está el proyecto.
+
+--------------- versionado En
+
+App.tsx  
+    en LINEA 32
+vite.config.ts incrementar el valor.
+
+el index debe ser: INCREMENTANDO VALOR, PERO NO LO REEMPLAZO.
+<script type="module" crossorigin src="assets/index_v22.js"></script>
+<link rel="stylesheet" crossorigin href="assets/index_v22.css">
+
+
+
+---------------------------------------------------------------------------------------
+PENDIENTE MEJORAS.
+EN LA V2.3 BORRAR LA BBDD LOCALSTORAGE
