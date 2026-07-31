@@ -1,3 +1,8 @@
+Proyecto publicado: https://alcaide.info/gasofa/
+
+
+----------------
+
 la primera vez instalar dependencias
 npm install
 
